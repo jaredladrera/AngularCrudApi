@@ -1,0 +1,21 @@
+a {
+    background-color: #A9A9A9;
+  box-shadow: 0 5px 0 #808080;
+  color: blue;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+

@@ -1,0 +1,15 @@
+
+<a routerLink="/">Back to home</a>
+
+
+   <div class="form-group">
+        <label>Name</label>
+        <input type="text" name="name" id="name" class="form-control" >
+   </div>
+   <div class="form-group">
+         <label>Color</label>
+        <input type="text" name="color" id="color" class="form-control" >
+    </div>  
+    <button class="btn btn-primary" (click)="addNewProduct()">Submit</button>
+<br>
+<h3 *ngIf="isAdded">{{ confirmationMessage }}</h3>
